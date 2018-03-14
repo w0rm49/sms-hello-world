@@ -1,0 +1,15 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+    ],
+	"build_systems":
+    [
+        {
+            "name": "clean run",
+            "shell_cmd": "cd ${project_path}/build && make clean run"
+        },
+	]
+}
